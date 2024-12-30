@@ -1,0 +1,19 @@
+name: Azure Login with MSI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Log in to Azure using MSI
+        uses: azure/login@v1
+        with:
+          auth-type: "MSI"
