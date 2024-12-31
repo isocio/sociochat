@@ -1,3 +1,4 @@
+npm install @azure/identity
 {
   "name": "src",
   "version": "0.1.0",
