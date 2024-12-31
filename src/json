@@ -1,0 +1,61 @@
+{
+    "apiVersion": "2023-05-01",
+    "id": "/subscriptions/14a56b74-fadc-43d6-9e8b-fd676debb479/resourceGroups/sociochat/providers/Microsoft.Storage/storageAccounts/sociochastorbamhhlopuczg",
+    "name": "sociochastorbamhhlopuczg",
+    "type": "microsoft.storage/storageaccounts",
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "location": "eastus2",
+    "tags": {
+        "azd-env-name": "sociochat"
+    },
+    "properties": {
+        "keyCreationTime": {
+            "key1": "2024-12-30T07:49:11.2250272Z",
+            "key2": "2024-12-30T07:49:11.2250272Z"
+        },
+        "allowCrossTenantReplication": false,
+        "privateEndpointConnections": [],
+        "minimumTlsVersion": "TLS1_0",
+        "allowBlobPublicAccess": false,
+        "networkAcls": {
+            "ipv6Rules": [],
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2024-12-30T07:49:11.818768Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2024-12-30T07:49:11.818768Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2024-12-30T07:49:11.1000225Z",
+        "primaryEndpoints": {
+            "dfs": "https://sociochastorbamhhlopuczg.dfs.core.windows.net/",
+            "web": "https://sociochastorbamhhlopuczg.z20.web.core.windows.net/",
+            "blob": "https://sociochastorbamhhlopuczg.blob.core.windows.net/",
+            "queue": "https://sociochastorbamhhlopuczg.queue.core.windows.net/",
+            "table": "https://sociochastorbamhhlopuczg.table.core.windows.net/",
+            "file": "https://sociochastorbamhhlopuczg.file.core.windows.net/"
+        },
+        "primaryLocation": "eastus2",
+        "statusOfPrimary": "available"
+    }
+}
